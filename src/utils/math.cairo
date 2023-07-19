@@ -7,11 +7,3 @@ fn pow(x: u256, n: u256) -> u256 {
         pow(x * x, n / 2)
     }
 }
-
-fn shl(x: u256, n: u256) -> u256 {
-    x * pow(2, n)
-}
-
-fn shr(x: u256, n: u256) -> u256 {
-    x / pow(2, n)
-}
