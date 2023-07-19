@@ -31,7 +31,7 @@ fn msb_maximum_256() {
 #[test]
 #[available_gas(20000000)]
 fn msb_random_number() {
-    assert(most_significant_bit(12345) ==  13, 'invalid result');
+    assert(most_significant_bit(12345) == 13, 'invalid result');
 }
 
 #[test]
@@ -65,5 +65,5 @@ fn lsb_maximum_256() {
 fn lsb_random_number() {
     // 11000000111001
     let ret = least_significant_bit(12345);
-    assert(ret ==  0, 'invalid result');
+    assert(ret == 0, 'invalid result');
 }
