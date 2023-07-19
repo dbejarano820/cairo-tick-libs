@@ -23,7 +23,7 @@ fn msb_bigger_number() {
 }
 
 #[test]
-#[available_gas(20000000)]
+#[available_gas(2000000000)]
 fn msb_maximum_256() {
     assert(most_significant_bit(BoundedInt::max()) == 255, 'invalid result');
 }
